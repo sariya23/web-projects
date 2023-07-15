@@ -1,0 +1,181 @@
+body {
+    font-family: Roboto;
+    font-weight: 500;
+    width: 1219px;
+    max-width: 1219px;
+    margin-left: 150px;
+}
+
+/*-------------------ШАПКА--------------------------------------------------*/
+
+.header {
+    margin: 0 auto;
+    background: #007765;
+    height: 85px;
+    position: fixed;
+    width: 1219px;
+}
+
+
+.el_menu {
+   margin-right: 54px;
+}
+
+.menu_link {
+    text-decoration: none;
+    display: inline;
+    float: right;
+    padding-top: 25px;
+    padding-right: 10px;
+    font-size: 24px;
+    color: white
+}
+
+
+.logo {
+    padding-top: 20px;
+    padding-left: 55px;
+}
+
+/*-------------------------------------------------------------------------------------------*/
+
+
+.container_under_header {
+    margin: auto;
+    height: 403px;
+    padding-top: 84px;
+}
+
+.text {
+    font-size: 72px;
+    text-align: center;
+    margin-top: -260px;
+    color: white;
+}
+/*--------------------------------------------------------------------------------------------*/
+
+.container_problem {
+    border-top: 0px;
+    background: url(img/TheProblem.png);
+    height: 719px;
+}
+
+.header_pr {
+    font-size: 64px;
+    text-align: center;
+    padding-top: 70px;
+    color: #007765;
+
+}
+
+.container_problem {
+    font-size: 32px;
+}
+
+/*--------------------------------------------------------------------------------------------*/
+
+.container_blue {
+    background: url(img/blu.png);
+    height: 483px;
+}
+
+.container_deviz {
+    width: 893px;
+    height: 228px;
+}
+
+.content_deviz {
+    color: white;
+    font-size: 48px;
+    text-align: center;
+    padding-top: 150px;
+    font-style: italic;
+    font-weight: 800;
+}
+
+/*-----------------------------------------------------------------------------------------*/
+
+.container_last {
+    height: 604px;
+    background: white;
+    float: right
+}
+
+.header_last {
+    padding-top: 59px;
+    padding-left: 55px;
+    height: 75px;
+    width: 1110px;
+    text-align: center;
+    color: #007765;
+    font-size: 64px;
+}
+
+.text_img {
+    display: flex;
+    padding-top: 36px;
+    padding-left: 65px;
+}
+
+.text_near_img {
+    font-size: 32px;
+    margin-left: 55px;
+    width: 930px;
+    height: 115px;
+}
+
+.conteiner_text_last {
+    height: 223px;
+    width: 1110px;
+    margin-left: 55px;
+}
+
+.content_text_last {
+    font-size: 32px;  
+}
+
+/*-------------------------------------------------------------------------------------*/
+
+.the_team_conteiner {
+    width: 1219px;
+    height: 845px;
+    background: url(img/TheProblem.png);
+    margin-top: 101px;
+    text-align: center;
+}
+
+.header_team_conteiner {
+    width: 1110px;
+    height: 75px;
+    padding-top: 67px;
+}
+
+.header_team {
+    font-size: 64px;
+    color: #007765;
+    padding-left: 70px;
+}
+
+.table {
+    padding-left: 50px;
+}
+
+/*-----------FOOTER------------------------------------------------------------------------------------------*/
+
+.footer {
+    height: 176px;
+    background: #333333;   
+}
+
+.footer_conteiner {
+    width: 540px;
+    height: 54px;
+    margin-left: 338px;
+    padding-top: 43px;
+}
+
+.footer_content {
+    font-size: 18px;
+    color: white;
+    font-weight: 400;
+}

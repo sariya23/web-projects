@@ -1,0 +1,25 @@
+h1, h2, h3 {
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+body {
+    width: 70%;
+    padding: 10px;
+    margin: auto;
+}
+
+.pict {
+    float: right;
+    margin: 0 0 15px 15px; /* сверху справа снизу слева*/
+    font-style: italic;
+}
+
+.prb_pict {
+    float: right;
+    margin: 0 0 100px 15px; /* сверху справа снизу слева*/
+    font-style: italic;
+}
